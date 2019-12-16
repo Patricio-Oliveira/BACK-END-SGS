@@ -1,0 +1,25 @@
+{
+  "name": "sgs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "date-fns": "^2.8.1",
+    "express": "^4.17.1",
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3",
+    "reactive-app": "^0.0.0",
+    "sequelize": "^5.21.2",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "nodemon": "^2.0.1",
+    "sequelize-cli": "^5.5.1"
+  },
+  "repository": "https://github.com/Patricio-Oliveira/BACK-END-SGS.git",
+  "author": "@Patricio-Oliveira <patriciosabino66@hotmail.com>"
+}
